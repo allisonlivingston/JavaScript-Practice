@@ -1,4 +1,4 @@
-## PRINTER ERRORS
+## Printer Errors
 
 In a factory a printer prints labels for boxes. For one kind of boxes the printer has to use colors which, for the sake of simplicity, are named with letters from a to m.
 
@@ -10,7 +10,7 @@ You have to write a function printer_error which given a string will output the 
 
 The string has a length greater or equal to one and contains only letters from ato z.
 
-### Examples:
+#### Examples:
 
 s="aaabbbbhaijjjm"
 error_printer(s) => "0/14"
