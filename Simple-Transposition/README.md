@@ -7,13 +7,13 @@ Complete the function that recieves a string and encrypt it with this simple tra
 ### Example
 For example if the text to encrypt is: `"Simple text"`, the 2 rows will be:
 
-    | Row1 | Row2 |
-    | :---: | :---: |
-    | S | i |
-    | m | p |
-    | l | e |
-    |   | t |
-    | e | x |
-    | t |   |
+| Row1 | Row2 |
+| :---: | :---: |
+| S | i |
+| m | p |
+| l | e |
+|   | t |
+| e | x |
+| t |   |
 
 So the result string will be: `"Sml etipetx"`
