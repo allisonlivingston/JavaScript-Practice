@@ -17,11 +17,11 @@ function isPrime(num) {
 // REFACTORED SOLUTION
 
 function isPrime(num) {
-  var prime = true;
+  var prime = true
   for(var i = 2; i < num; i++) {
     if(num % i === 0) {
-      prime = false;
+      prime = false
     }
   }
-  return (num < 2) ? false : prime;
+  return (num < 2) ? false : prime
 }
