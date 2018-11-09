@@ -8,11 +8,12 @@ A couple notes regarding expected behavior:
 
 * If the function is passed either 0 or a negative number, the function should return the dictionary with all values equal to 0.
 
-
-    looseChange(-435)  ->  {'Nickels': 0, 'Pennies': 0, 'Dimes': 0, 'Quarters': 0}
-
+```
+looseChange(-435)  ->  {'Nickels': 0, 'Pennies': 0, 'Dimes': 0, 'Quarters': 0}
+```
 
 * If a float is passed into the function, its value should be be rounded down, and the resulting dictionary should never contain fractions of a coin.
 
-
-    looseChange(4.935)  ->  {'Nickels': 0, 'Pennies': 4, 'Dimes': 0, 'Quarters': 0}
+```
+looseChange(4.935)  ->  {'Nickels': 0, 'Pennies': 4, 'Dimes': 0, 'Quarters': 0}
+```
