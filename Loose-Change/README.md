@@ -6,7 +6,7 @@ Welcome young Jedi! In this Kata you must create a function that takes an amount
 
 A couple notes regarding expected behavior:
 
- * If the function is passed either 0 or a negative number, the function should return the dictionary with all values equal to 0.
+* If the function is passed either 0 or a negative number, the function should return the dictionary with all values equal to 0.
 
     looseChange(-435)  ->  {'Nickels': 0, 'Pennies': 0, 'Dimes': 0, 'Quarters': 0}
 
