@@ -26,3 +26,20 @@ var sum_pairs=function(ints, s){
 
   return sumPairArray !== undefined ? [ints[sumPairArray[0][0]], ints[sumPairArray[0][1]]] : undefined
 }
+
+// REFACTORED SOLUTION
+
+// ** PASSED ALL TESTS **
+
+var sum_pairs=function(ints, s){
+  let seenNumbers = {}
+  for(let i=0; i<ints.length; i++) {
+    let currentNumber = ints[i]
+    let remainder = s-currentNumber
+    if(seenNumbers[remainder]) {
+      return [remainder, currentNumber]
+    } else {
+      seenNumbers[currentNumber] = true
+    }
+  }
+}
